@@ -1,0 +1,10 @@
+Dear {!Opportunity.Contact_Name__c},
+
+We are pleased to confirm your room reservation at Taj Hotel. The details of your stay are as follows:
+
+Room: {!Opportunity.Product_Count__c}
+Check-in date: {!Opportunity.Reservation_Start_Date__c}
+Check-out date: {!Opportunity.Reservation_End_Date__c}
+Please note that this confirmation is for your reference only. If you have any questions or concerns, please do not hesitate to contact us.
+
+Thank you for choosing Taj Hotel.

@@ -1,0 +1,11 @@
+Dear {!Opportunity.Contact_Name__c},
+
+We regret to inform you that your room reservation at Taj Hotel has been cancelled. The details of your original reservation were as follows:
+
+Room: {!Opportunity.Product_Count__c} 
+Check-in date: {!Opportunity.Reservation_Start_Date__c} 
+Check-out date: {!Opportunity.Reservation_End_Date__c}
+
+If you have any questions or concerns, please do not hesitate to contact us.
+
+Thank you for considering Taj Hotel.

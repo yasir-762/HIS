@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DELUXE ROOM CITY VIEW KING BED</fullName>
+        <default>false</default>
+        <label>DELUXE ROOM CITY VIEW KING BED</label>
+    </customValue>
+    <customValue>
+        <fullName>DELUXE ROOM SEA VIEW KING BED</fullName>
+        <default>false</default>
+        <label>DELUXE ROOM SEA VIEW KING BED</label>
+    </customValue>
+    <customValue>
+        <fullName>SUPERIOR ROOM CITY VIEW KING BED</fullName>
+        <default>false</default>
+        <label>SUPERIOR ROOM CITY VIEW KING BED</label>
+    </customValue>
+    <customValue>
+        <fullName>SUPERIOR ROOM SEA VIEW KING BED</fullName>
+        <default>false</default>
+        <label>SUPERIOR ROOM SEA VIEW KING BED</label>
+    </customValue>
+    <masterLabel>Taj Hotal Rooms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

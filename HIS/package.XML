@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<fullName>Hotel Taj</fullName>
+    <types>
+        <members>images</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>Taj_Hotels</members>
+        <name>CustomApplication</name>
+    </types>
+   <types>
+        <members>Contact.Aadhaar_Card__c</members>
+        <members>Contact.Driving_Licences__c</members>
+        <members>Contact.ID_Proof__c</members>
+        <members>Contact.PAN_Card__c</members>
+        <members>Contact.Passport_No__c</members>
+        <members>Hotel_Taj__c.Account__c</members>
+        <members>Hotel_Taj__c.Contact__c</members>
+        <members>Hotel_Taj__c.Guest__c</members>
+        <members>Hotel_Taj__c.Reservation_End__c</members>
+        <members>Hotel_Taj__c.Reservation__c</members>
+        <members>Hotel_Taj__c.Room__c</members>
+        <members>Hotel_Taj__c.Rooms__c</members>
+        <members>Opportunity.Balance__c</members>
+        <members>Opportunity.Contact_Name__c</members>
+        <members>Opportunity.Email__c</members>
+        <members>Opportunity.OrderNumber__c</members>
+        <members>Opportunity.Product_Count__c</members>
+        <members>Opportunity.QR_Code__c</members>
+        <members>Opportunity.Reservation_End_Date__c</members>
+        <members>Opportunity.Reservation_Start_Date__c</members>
+        <members>Opportunity.Total_Sum__c</members>
+        <members>Payment__c.Amount__c</members>
+        <members>Payment__c.Balance__c</members>
+        <members>Payment__c.Date__c</members>
+        <members>Payment__c.Opportunity__c</members>
+        <members>Payment__c.Payment_Method__c</members>
+        <members>Payment__c.Status__c</members>
+        <members>Product2.Total_Quantity__c</members>
+        <members>Quote.Payment_Method__c</members>
+        <members>Quote.Payment__c</members>
+        <members>Quote.Payments__c</members>
+        <members>Room_Service__c.Opportunity__c</members>
+        <members>Room_Service__c.Order_Item__c</members>
+        <members>Room_Service__c.Order_Quantity__c</members>
+        <members>Room_Service__c.Status__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Hotel_Taj__c</members>
+        <members>Payment__c</members>
+        <members>Room_Service__c</members>
+        <name>CustomObject</name>
+    </types>
+        <types>
+        <members>Payment__c</members>
+        <members>Room_Service__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Taj_Hotels_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+<types>
+<members>Opportunity.Hotel_Manager_Approval</members>
+<name>ApprovalProcess</name>
+</types>
+<types>
+<members>unfiled$public/Booking_Conformed</members>
+<members>unfiled$public/Booking_Rejected</members>
+<name>EmailTemplate</name>
+</types>
+<types>
+        <members>Check_Out</members>
+        <members>Hotel_Taj</members>
+        <members>Hotel_Taj_Menu</members>
+        <members>Payment_Balance</members>
+        <members>QR_code_Scanner</members>
+        <members>Room_Service</members>
+        <members>Update_Total_Quantity</members>
+        <name>Flow</name>
+    </types>
+<types>
+<members>Taj_Hotal_Rooms</members>
+<name>GlobalValueSet</name>
+</types>
+ <types>
+        <members>Contact-Contact(FrontDesk) Layout</members>
+        <members>Opportunity(Marketing) Layout</members>
+        <members>Hotel_Taj__c-HOTEL Layout</members>
+        <members>Payment__c-Payment Layout</members>
+        <members>Room_Service__c-Room Service Layout</members>
+        <name>Layout</name>
+    </types>
+<types>
+<members>Front_Desk_Executive</members>
+<members>CEO</members>
+<members>House_Keeping</members>
+<members>Manager</members>
+<members>Sr_Manager</members>
+<name>Role</name>
+</types>
+<types>
+        <members>Opportunity.Order</members>
+        <members>Opportunity.Reservation</members>
+        <members>Payment__c.New_Quotes</members>
+        <members>Quote.New</members>
+        <name>WebLink</name>
+</types>
+<types>
+    <members>barcodeScanner</members>
+    <name>LightningComponentBundle</name>
+</types>
+<types>
+    <members>Sr%2E Manager</members>
+    <members>Manager</members>
+    <members>HouseKeping</members>
+    <members>Front Desk</members>
+<name>Profile</name>
+</types>
+<version>58.0</version>
+</Package>
